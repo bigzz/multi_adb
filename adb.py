@@ -32,7 +32,7 @@ class ADB():
         return self.PYADB_VERSION
 
     def __init__(self,adb_path=None):
-        self.__adb_path = adb_path
+        self.A = adb_path
 
     def __clean__(self):
         self.__output = None
